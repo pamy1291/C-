@@ -1,0 +1,22 @@
+<Xsystem name="Xsystem配置文件">
+	<log name="日志信息">
+		<log_path>/home/ubuntu/x-system/log/</log_path>
+		<log_file>system.txt</log_file>
+		<log_level>DEBUG</log_level>
+	</log>
+	<pthread name="线程池信息">
+		<pthread_count>100</pthread_count>
+	</pthread>
+	<server name="服务器信息">
+		<server_ip>127.0.0.1</server_ip>
+		<server_port>8899</server_port>
+	</server>
+	<database name="数据库信息">
+		<database_name>xsystem</database_name>
+		<database_host>localhost</database_host>
+		<database_port>3306</database_port>
+		<database_user>root</database_user>
+		<database_password>zhizhen</database_password>
+	</database>
+	
+</Xsystem>
