@@ -6,14 +6,14 @@ USER_FILES=user_files/msg.txt
 
 #头文件路径
 INCDIRS:=tools \
-		 guest \
-		 room \
-		 hotel
+	 guest \
+	 room \
+	 hotel
 
 #源文件路径
 SRCDIRS:=project \
-		 hotel \
-		 tools \
+	 hotel \
+	 tools \
 
 #使用patsubst函数将INCDIRS中的每个内容加上-I
 #编译时作为参数(头文件路径)
