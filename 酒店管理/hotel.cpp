@@ -117,9 +117,13 @@ int Hotel::show_empty_room(void)const {
     			it--;
     			cnt--;
     		}
-    		else if(cmd == RIGHT && it != rooms_layer[i].room.end()) {
-    			it++;
+    		else if(cmd == RIGHT && it++ != rooms_layer[i].room.end()) {
+    			//it++;
     			cnt++;
+    		}
+    		if(it == rooms_layer[i].room.end()) {
+    			it--;
+    			cnt--;
     		}
     		else continue;
     	}
